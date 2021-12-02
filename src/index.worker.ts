@@ -14,7 +14,6 @@ export const siteData: any = {
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
-    introScreenHeader: `<p class="text-center mb-3">Ask a question. Tell a story. (Keep it under 30 seconds.)</p>`,
     recordButtonLabel: "Record a video now",
     uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. Nothing to install.</p>`,
     // Or upload a video.

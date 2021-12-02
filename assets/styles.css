@@ -9,6 +9,12 @@
   display: unset;
 }
 
+#introScreen #noVideoArea {
+  background-image: url(./intro-lnx.png);
+  background-position: center;
+  background-size: cover;
+}
+
 #introHostName {
   padding: 0;
   margin: 1rem 2rem 0.5rem 2rem;
