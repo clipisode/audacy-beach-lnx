@@ -13,7 +13,7 @@ export const siteData: any = {
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
-    introScreenHeader: `<p class="text-center">Ask a question. Tell a story. (Keep it under 30 seconds.)</p>`,
+    introScreenHeader: `<p class="text-center mb-3">Ask a question. Tell a story. (Keep it under 30 seconds.)</p>`,
     recordButtonLabel: "Record a video now",
     uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. Nothing to install.</p>`,
     // Or upload a video.
@@ -23,8 +23,6 @@ export const siteData: any = {
       <h1 class="text-center text-black font-heading font-extrabold p-0 text-2xl">Good news</h1>
       <p class="text-left text-gray-700 text-sm py-3">Just tap the three dots menu and choose <span class="whitespace-nowrap">“Open in BROWSER_NAME”</span> to send your video story to <span class="whitespace-nowrap">INVITATION_DISPLAY_NAME</span>.</p>
     `,
-    termsMarkup: `By replying to Chris Janson, you agree to our <span class="whitespace-nowrap"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></span>EXTRA_TERMS.`,
-    extraTerms: ` plus <a href="/terms/BRAND_SLUG/TERMS_SLUG">TERMS_NAME</a>`,
   },
   introScreenDesktop: {
     // values: THEME_FILE_ROOT, TOPIC_TITLE, QR_CODE, INVITATION_DISPLAY_NAME, URL_TAG, INVITATION_URL
@@ -36,7 +34,7 @@ export const siteData: any = {
               <img src="THEME_FILE_ROOT/icon.png" class="h-12 rounded-full" />
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Ask a question or tell a story. Send INVITATION_DISPLAY_NAME a video. (Keep it under 30 seconds.)</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send INVITATION_DISPLAY_NAME a video. Ask a question or tell a story. (Just keep it under 30 seconds.)</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
