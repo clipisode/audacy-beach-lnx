@@ -6,6 +6,7 @@ export const getCustomDataDescriptors: GetCustomDataDescriptorsFn = () => {
 
 export const siteData: any = {
   customCssKey: "styles.css",
+  customJsKey: "theme.js",
   meta: {
     // values: TOPIC_TITLE
     title: "TOPIC_TITLE • Audacy Beach Festival",
