@@ -8,15 +8,12 @@ export const siteData: any = {
   customCssKey: "styles.css",
   meta: {
     // values: TOPIC_TITLE
-    title: "TOPIC_TITLE • Chris Janson",
-    description: "Send a video (no app needed) to Chris Janson",
+    title: "TOPIC_TITLE • Audacy Beach Festival",
+    description: "Send a video (no app needed) to Lil Nas X",
   },
   introScreen: {
     // values: SOCIAL_NETWORK, BROWSER_NAME, TITLE, INVITATION_DISPLAY_NAME, URL_TAG, EXTRA_TERMS, BRAND_SLUG, TERMS_SLUG, TERMS_NAME, BRAND_NAME
-    introScreenHeader: `
-      <h2 id="introHostName">What's your "Bye Mom" story?</h2>
-      <h1 id="introTitle">Send me a video</h1>
-      `,
+    introScreenHeader: `<p class="text-center">Ask a question. Tell a story. (Keep it under 30 seconds.)</p>`,
     recordButtonLabel: "Record a video now",
     uploadLinkLabel: `<p class="text-center">Or <span class="text-brand-primary-light underline">upload a video</span>. It's easy. Nothing to install.</p>`,
     // Or upload a video.
@@ -35,15 +32,15 @@ export const siteData: any = {
       <div class="flex flex-col items-center justify-between text-center flex-grow ">
         <div class="flex flex-col items-center justify-between text-center">
           <div class="m-2">
-            <a href="https://www.chrisjanson.com/">
+            <a href="https://www.audacybeachfestival.com/">
               <img src="THEME_FILE_ROOT/icon.png" class="h-12 rounded-full" />
             </a>
           </div>
-          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send me a video and tell me your "Bye Mom" story.</h1>
+          <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Ask a question or tell a story. Send INVITATION_DISPLAY_NAME a video. (Keep it under 30 seconds.)</h1>
         </div>
         <div class="m-8">QR_CODE</div>
         <div>
-          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open it on your phone and send me a video. <span class="whitespace-nowrap">It's easy.</span> Nothing <span class="whitespace-nowrap">to install.</span></p>
+          <p class="m-4 mb-6 text-base">Point your camera at the QR code to open it on your phone and send a video. <span class="whitespace-nowrap">It's easy.</span> Nothing <span class="whitespace-nowrap">to install.</span></p>
         </div>
       </div>
     `,
@@ -59,14 +56,20 @@ export const siteData: any = {
   },
   closedScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME
-    markup: `<iframe src="https://chrisjanson.lnk.to/byemom?ref=https%3A//www.chrisjanson.com/" class="flex flex-grow" />`,
+    markup: `
+      <div>
+        <h1 class="p-0 my-3 mx-3 text-center">Too late</h1>
+        <p class="p-0 mt-1 mb-6 mx-3 text-center">This invitation link is now closed.</p>
+      </div>
+    `,
   },
   successScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME, URL_TAG <- needs /success?tag=FOO
-    markup: `<div>
-      <h1 class="p-0 my-3 mx-3 text-center">Great work</h1>
-      <p class="p-0 mt-1 mb-6 mx-3 text-center">We got your video. Thanks!</p>
-    </div>
-    <iframe src="https://chrisjanson.lnk.to/byemom?ref=https%3A//www.chrisjanson.com/" class="flex flex-grow" />`,
+    markup: `
+      <div>
+        <h1 class="p-0 my-3 mx-3 text-center">Great work</h1>
+        <p class="p-0 mt-1 mb-6 mx-3 text-center">We got your video. Thanks!</p>
+      </div>
+    `,
   },
 };
