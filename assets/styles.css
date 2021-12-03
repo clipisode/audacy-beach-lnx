@@ -67,33 +67,12 @@
   width: 95%;
 }
 
-#introHostName {
-  padding: 0;
-  margin: 1rem 2rem 0.5rem 2rem;
-  font-family: "Open Sans";
-  font-weight: 400;
-  color: white;
-  text-shadow: 1px 1px 3px #00000077;
-  font-size: 1.2rem;
-}
-
-#introTitle {
-  padding: 0;
-  margin: 0 2rem;
-  font-size: 2rem;
-  line-height: 1.2;
-  font-family: "Open Sans";
-  font-weight: 800;
-  color: white;
-  text-shadow: 1px 1px 3px #00000077;
-}
-
 #successScreen {
   background-color: black;
 }
 
 #successScreen p {
-  font-family: "Open Sans";
+  font-family: Poppins;
   color: white;
   font-weight: 400;
   font-size: 16px;
@@ -101,10 +80,10 @@
 }
 
 #successScreen h1 {
-  font-family: "Open Sans";
+  font-family: Outfit;
   text-transform: uppercase;
   color: white;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 2rem;
   line-height: 1.2;
 }
