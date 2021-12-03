@@ -23,7 +23,7 @@
 #introScreen #noVideoArea,
 #successScreen {
   background: unset;
-  background-image: url(./intro-lnx.png);
+  background-image: url(./intro.png);
   background-position: center;
   background-size: cover;
 }
@@ -46,6 +46,16 @@
 #introScreen #uploadLink span,
 #successScreen #message h1 {
   color: #fe5000;
+}
+
+#introScreen #nameScreen {
+  width: 85%;
+  background-color: #9466dd;
+  margin: 200px 0 200px 0;
+}
+
+#nameScreen label {
+  color: black;
 }
 
 #successScreen #message p {
