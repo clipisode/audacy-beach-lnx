@@ -9,7 +9,8 @@
   display: unset;
 }
 
-#introScreen #noVideoArea {
+#introScreen #noVideoArea,
+#successScreen {
   background: unset;
   background-image: url(./intro-lnx.png);
   background-position: center;
