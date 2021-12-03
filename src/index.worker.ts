@@ -67,7 +67,7 @@ export const siteData: any = {
     markup: `
       <div id="message">
         <h1 class="my-3 mx-3 text-center">Great work</h1>
-        <p class="my-3 mx-3 text-center text-black">INVITATION_DISPLAY_NAME got your video. Thanks!</p>
+        <p class="my-3 mx-3 text-center text-black">We got your video for INVITATION_DISPLAY_NAME. Thanks!</p>
       </div>
     `,
   },
