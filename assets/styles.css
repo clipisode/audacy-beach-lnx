@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=fallback"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Poppins&display=fallback"); */
 
 .ios .iosOnly,
 .android .androidOnly,
@@ -7,6 +7,12 @@
 .tiktok .tiktokOnly,
 .snapchat .snapchatOnly {
   display: unset;
+}
+
+#introScreen *,
+#nameScreen *,
+#successScreen * {
+  font-family: Poppins;
 }
 
 #introScreen #noVideoArea,
@@ -28,13 +34,17 @@
 #introScreen #recordButton,
 #buttonsContainer button {
   background-color: #fe5000;
+  font-family: Outfit;
 }
 
 #introScreen #uploadLink span,
-#message h1 {
+#successScreen #message h1 {
   color: #fe5000;
 }
 
+#successScreen #message p {
+  color: black;
+}
 #introScreen #introTerms {
   margin-top: 12px;
   color: black;
