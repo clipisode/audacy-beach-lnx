@@ -54,8 +54,10 @@
   margin: 40% 0;
 }
 
-#nameScreen label {
-  color: black;
+#nameScreen label,
+#nameScreen h1,
+#nameScreen p {
+  color: white;
 }
 
 #successScreen #message p {
