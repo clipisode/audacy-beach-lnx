@@ -30,7 +30,8 @@
   background-color: #fe5000;
 }
 
-#introScreen #uploadLink span {
+#introScreen #uploadLink span,
+#message h1 {
   color: #fe5000;
 }
 
@@ -41,13 +42,19 @@
 
 #introScreen #introBottom,
 #successScreen #message {
-  color: black;
   margin-top: 100px;
   padding-top: 8px;
   margin-bottom: 40px;
   padding-bottom: 8px;
   margin-right: 20px;
   background: #f9eaaf;
+}
+
+#successScreen #message {
+  color: black;
+  position: absolute;
+  bottom: 0;
+  width: 95%;
 }
 
 #introHostName {

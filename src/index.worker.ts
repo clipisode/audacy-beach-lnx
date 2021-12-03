@@ -66,8 +66,8 @@ export const siteData: any = {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME, URL_TAG <- needs /success?tag=FOO
     markup: `
       <div id="message">
-        <h1 class="mt-12 my-6 mx-3 text-center">Great work</h1>
-        <p class="mt-12 my-6 mx-3 text-center">INVITATION_DISPLAY_NAME got your video. Thanks!</p>
+        <h1 class="my-3 mx-3 text-center">Great work</h1>
+        <p class="my-3 mx-3 text-center text-black">INVITATION_DISPLAY_NAME got your video. Thanks!</p>
       </div>
     `,
   },
