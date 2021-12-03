@@ -33,6 +33,7 @@
 }
 
 #introScreen #introTerms {
+  margin-top: 12px;
   color: black;
 }
 
