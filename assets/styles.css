@@ -20,6 +20,11 @@
   background: unset;
 }
 
+#introScreen a,
+#introScreen #recordButton {
+  color: #fe5000;
+}
+
 #introScreen #introBottom {
   margin-top: 100px;
   padding-top: 20px;
