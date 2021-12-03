@@ -24,7 +24,8 @@
   color: #fe5000;
 }
 
-#introScreen #recordButton {
+#introScreen #recordButton,
+#buttonsContainer button {
   background-color: #fe5000;
 }
 
@@ -40,7 +41,7 @@
 #introScreen #introBottom {
   margin-top: 100px;
   padding-top: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding-bottom: 8px;
   margin-right: 20px;
   background: #f9eaaf;
