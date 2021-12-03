@@ -65,9 +65,16 @@ export const siteData: any = {
   successScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME, URL_TAG <- needs /success?tag=FOO
     markup: `
-      <div>
-        <h1 class="p-0 my-3 mx-3 text-center">Great work</h1>
-        <p class="p-0 mt-1 mb-6 mx-3 text-center">We got your video. Thanks!</p>
+      <div class="flex flex-grow flex-col items-center justify-between">
+        <div>
+          <div>
+            <a href="https://www.audacybeachfestival.com">
+              <img src="THEME_FILE_ROOT/icon.png" style="width: 150px; margin: 80px auto;" />
+            </a>
+          </div>
+          <h1 class="mt-12 my-6 mx-3 text-center">Great work</h1>
+          <p class="mt-12 my-6 mx-3 text-center">We got your video. Thanks!</p>
+        </div>
       </div>
     `,
   },
