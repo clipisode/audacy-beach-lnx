@@ -15,7 +15,7 @@
   font-family: Poppins;
 }
 
-#introScreen .noVideoArea {
+#introScreen #noVideoArea {
   animation: unset;
 }
 
