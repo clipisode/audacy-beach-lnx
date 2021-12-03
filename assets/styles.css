@@ -38,7 +38,9 @@
   color: black;
 }
 
-#introScreen #introBottom {
+#introScreen #introBottom,
+#successScreen #message {
+  color: black;
   margin-top: 100px;
   padding-top: 8px;
   margin-bottom: 40px;
