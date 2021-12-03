@@ -30,11 +30,6 @@ export const siteData: any = {
     markup: `
       <div class="flex flex-col items-center justify-between text-center flex-grow ">
         <div class="flex flex-col items-center justify-between text-center">
-          <div class="m-2">
-            <a href="https://www.audacybeachfestival.com/">
-              <img src="THEME_FILE_ROOT/icon.png" class="h-12 rounded-full" />
-            </a>
-          </div>
           <h1 class="font-heading mt-3 mb-6 text-xl md:text-2xl max-h-32 md:max-h-48 overflow-hidden">Send INVITATION_DISPLAY_NAME a video. Ask a question or tell a story. (Just keep it under 30 seconds.)</h1>
         </div>
         <div class="m-8">QR_CODE</div>
@@ -47,11 +42,7 @@ export const siteData: any = {
   nameScreen: {
     // values: UPLOAD_PERCENTAGE, INVITATION_DISPLAY_NAME, SOCIAL_NETWORK
     saveButtonLabel: "Save my video",
-    nameScreenHeader: `
-      <div class="my-2 flex flex-col items-center">
-        <img src="THEME_FILE_ROOT/icon.png" class="h-16 rounded-full" />
-      </div>
-    `,
+    nameScreenHeader: ` `,
   },
   closedScreen: {
     // values: THEME_FILE_ROOT, INVITATION_DISPLAY_NAME

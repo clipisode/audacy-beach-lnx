@@ -49,9 +49,9 @@
 }
 
 #introScreen #nameScreen {
-  width: 85%;
+  width: 90%;
   background-color: #9466dd;
-  margin: 200px 0 200px 0;
+  margin: 40% 0;
 }
 
 #nameScreen label {
